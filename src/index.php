@@ -64,8 +64,7 @@
         <button id='sendInfo' class="search-button" type='submit'><span>Short URL!</span></button>
     </form>
 
-    Nueva URL:
-    <span class="message" id="message"></span>
+    New URL: <span class="message" id="message"></span>
 </div>
 
 
