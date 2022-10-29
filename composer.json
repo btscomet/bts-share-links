@@ -1,0 +1,17 @@
+{
+    "name": "jchdezperez/bts-share-links",
+    "description": "Script that will allow you to connect against the BTS-SHORTLINK API",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Carlos Hernández Pérez",
+            "email": "btsshortlink@gmail.com",
+            "role": "CEO",
+            "homepage": "https://www.bts-shortlink.com/"
+        }
+    ]
+}
