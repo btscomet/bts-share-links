@@ -76,6 +76,8 @@
     $('#sendInfo').on('click', function (){
         var endpoint = 'https://www.bts-shortlink.com/api/v01/shortlinks/create';
         var url = $('#url').val();
+        var bearerToken = 'b437833d-d6b3-4f6a-a7c1-b483046de586';
+
         if(url === null || !url) {
             alert('URL is not null');
             return false;
@@ -86,7 +88,7 @@
             "method": "POST",
             "timeout": 0,
             "headers": {
-                "Authorization": "Bearer b437833d-d6b3-4f6a-a7c1-b483046de586",
+                "Authorization": "Bearer " + bearerToken,
                 "Content-Type": "application/json"
             },
             "data": JSON.stringify({
